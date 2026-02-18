@@ -22,6 +22,7 @@ def separate_vocals(input_audio, output_dir):
     print(f"  Input: {input_audio}")
 
     args = [
+        "-n", "mdx_extra_q",
         "--two-stems",
         "vocals",
         "-o",
