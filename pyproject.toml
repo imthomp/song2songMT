@@ -1,0 +1,11 @@
+[project]
+name = "song2songmt"
+version = "0.1.0"
+description = "Song translation via source separation and neural MT"
+requires-python = ">=3.10"
+dependencies = [
+    "demucs",
+    "ffmpeg-python",
+    "transformers",
+    "TTS",
+]
